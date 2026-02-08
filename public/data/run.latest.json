@@ -1,0 +1,2449 @@
+{
+  "run_id": "ai-2026-02-04-morning",
+  "domain": "AI",
+  "briefing_date": "2026-02-04",
+  "cadence": "morning",
+  "topic_cap": 5,
+  "started_at": "2026-02-04T12:00:42.413Z",
+  "completed_at": "2026-02-04T12:00:42.413Z",
+  "window": {
+    "window_start": "2026-02-01T09:00:00.000Z",
+    "window_end": "2026-02-04T09:00:00.000Z"
+  },
+  "candidate_count": 63,
+  "eligible_count": 6,
+  "briefing_count": 5,
+  "queue_count": 20,
+  "excluded_reasons": {
+    "credibility": 6,
+    "relevance": 0,
+    "source_count": 51,
+    "outside_window": 0,
+    "diversity": 0,
+    "social_only": 0
+  },
+  "briefing_topics": [
+    {
+      "topic_id": "ai-2026-02-04-62",
+      "domain": "AI",
+      "included_by_source_override": true,
+      "briefing_reason": "Included by source override",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "Primary source present: confidence capped at Medium unless corroborated",
+        "No contradictions detected in sources"
+      ],
+      "title": "AI vendor pricing changes force renewed cost planning",
+      "intel_line": "AI vendor pricing changes force renewed cost planning. Primary source posted an update; assess enterprise impact on cost, risk, or adoption.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Strategic",
+      "confidence": "Med",
+      "freshness_hours": 54,
+      "timestamps": {
+        "first_seen_at": "2026-02-02T06:00:00.000Z",
+        "last_updated_at": "2026-02-02T06:00:00.000Z",
+        "first_credible_at": "2026-02-02T06:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_business_market"
+      },
+      "score": {
+        "relevance": 3,
+        "impact": 4,
+        "novelty": 2,
+        "credibility": 3,
+        "time_sensitivity": 2,
+        "total": 14
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: OpenAI News",
+          "source_ids": [
+            "OpenAI News:aHR0cHM6Ly9vcGVuYWkuY29t"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "OpenAI News:aHR0cHM6Ly9vcGVuYWkuY29t"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "OpenAI News:aHR0cHM6Ly9vcGVuYWkuY29t"
+          ]
+        }
+      ],
+      "entities": [
+        "OpenAI",
+        "Snowflake"
+      ],
+      "keywords": [
+        "snowflake",
+        "openai",
+        "partner",
+        "bring",
+        "frontier",
+        "intelligence",
+        "enterprise",
+        "data"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "OpenAI News:aHR0cHM6Ly9vcGVuYWkuY29t",
+          "publisher": "OpenAI News",
+          "title": "Snowflake and OpenAI partner to bring frontier intelligence to enterprise data",
+          "url": "https://openai.com/index/snowflake-partnership",
+          "type": "Primary",
+          "published_at": "2026-02-02T06:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-37",
+      "domain": "AI",
+      "included_by_source_override": true,
+      "briefing_reason": "Included by source override",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "Primary source present: confidence capped at Medium unless corroborated",
+        "No contradictions detected in sources"
+      ],
+      "title": "Vfl Wolfsburg Turns Chatgpt Club Wide",
+      "intel_line": "Vfl Wolfsburg Turns Chatgpt Club Wide. Primary source posted an update; assess enterprise impact on cost, risk, or adoption.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Strategic",
+      "confidence": "Med",
+      "freshness_hours": 12,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T00:00:00.000Z",
+        "last_updated_at": "2026-02-04T00:00:00.000Z",
+        "first_credible_at": "2026-02-04T00:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "model_releases"
+      },
+      "score": {
+        "relevance": 3,
+        "impact": 2,
+        "novelty": 2,
+        "credibility": 3,
+        "time_sensitivity": 2,
+        "total": 12
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: OpenAI News",
+          "source_ids": [
+            "OpenAI News:aHR0cHM6Ly9vcGVuYWkuY29t"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "OpenAI News:aHR0cHM6Ly9vcGVuYWkuY29t"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "OpenAI News:aHR0cHM6Ly9vcGVuYWkuY29t"
+          ]
+        }
+      ],
+      "entities": [
+        "VfL Wolfsburg",
+        "ChatGPT",
+        "Bundesliga"
+      ],
+      "keywords": [
+        "wolfsburg",
+        "turns",
+        "chatgpt",
+        "club",
+        "wide",
+        "capability",
+        "focusing",
+        "people"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "OpenAI News:aHR0cHM6Ly9vcGVuYWkuY29t",
+          "publisher": "OpenAI News",
+          "title": "VfL Wolfsburg turns ChatGPT into a club-wide capability",
+          "url": "https://openai.com/index/vfl-wolfsburg",
+          "type": "Primary",
+          "published_at": "2026-02-04T00:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-40",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Primary in window",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "Primary source present: confidence capped at Medium unless corroborated",
+        "No contradictions detected in sources"
+      ],
+      "title": "AI accelerator roadmap updates reshape capacity planning",
+      "intel_line": "AI accelerator roadmap updates reshape capacity planning. Primary source posted an update; assess enterprise impact on cost, risk, or adopt…",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Strategic",
+      "confidence": "Med",
+      "freshness_hours": 14,
+      "timestamps": {
+        "first_seen_at": "2026-02-03T22:14:00.000Z",
+        "last_updated_at": "2026-02-03T22:14:00.000Z",
+        "first_credible_at": "2026-02-03T22:14:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_infra"
+      },
+      "score": {
+        "relevance": 3,
+        "impact": 2,
+        "novelty": 2,
+        "credibility": 3,
+        "time_sensitivity": 2,
+        "total": 12
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: NVIDIA Newsroom",
+          "source_ids": [
+            "NVIDIA Newsroom:aHR0cHM6Ly9ibG9ncy5udmlk"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "NVIDIA Newsroom:aHR0cHM6Ly9ibG9ncy5udmlk"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "NVIDIA Newsroom:aHR0cHM6Ly9ibG9ncy5udmlk"
+          ]
+        }
+      ],
+      "entities": [
+        "NVIDIA",
+        "Everything Will Be Represented",
+        "Virtual Twin",
+        "NVIDIA CEO Jensen Huang",
+        "Says",
+        "World NVIDIA",
+        "CEO Jensen Huang",
+        "Dassault Syst"
+      ],
+      "keywords": [
+        "everything",
+        "represented",
+        "virtual",
+        "twin",
+        "nvidia",
+        "jensen",
+        "huang",
+        "says"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "NVIDIA Newsroom:aHR0cHM6Ly9ibG9ncy5udmlk",
+          "publisher": "NVIDIA Newsroom",
+          "title": "Everything Will Be Represented in a Virtual Twin, NVIDIA CEO Jensen Huang Says at 3DEXPER…",
+          "url": "https://blogs.nvidia.com/blog/huang-3dexperience-2026/",
+          "type": "Primary",
+          "published_at": "2026-02-03T22:14:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-45",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Primary in window",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "Primary source present: confidence capped at Medium unless corroborated",
+        "No contradictions detected in sources"
+      ],
+      "title": "AI accelerator roadmap updates reshape capacity planning",
+      "intel_line": "AI accelerator roadmap updates reshape capacity planning. Primary source posted an update; assess enterprise impact on cost, risk, or adopt…",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Strategic",
+      "confidence": "Med",
+      "freshness_hours": 20,
+      "timestamps": {
+        "first_seen_at": "2026-02-03T16:00:00.000Z",
+        "last_updated_at": "2026-02-03T16:00:00.000Z",
+        "first_credible_at": "2026-02-03T16:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_infra"
+      },
+      "score": {
+        "relevance": 3,
+        "impact": 2,
+        "novelty": 2,
+        "credibility": 3,
+        "time_sensitivity": 2,
+        "total": 12
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: NVIDIA Newsroom",
+          "source_ids": [
+            "NVIDIA Newsroom:aHR0cDovL252aWRpYW5ld3Mu"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "NVIDIA Newsroom:aHR0cDovL252aWRpYW5ld3Mu"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "NVIDIA Newsroom:aHR0cDovL252aWRpYW5ld3Mu"
+          ]
+        }
+      ],
+      "entities": [
+        "NVIDIA",
+        "Dassault Syst",
+        "NVIDIA Partner",
+        "Build Industrial AI Platform",
+        "Powering Virtual Twins Dassault",
+        "Syst",
+        "Euronext Paris",
+        "FR0014003TT8"
+      ],
+      "keywords": [
+        "dassault",
+        "syst",
+        "nvidia",
+        "partner",
+        "build",
+        "industrial",
+        "platform",
+        "powering"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "NVIDIA Newsroom:aHR0cDovL252aWRpYW5ld3Mu",
+          "publisher": "NVIDIA Newsroom",
+          "title": "Dassault Systèmes and NVIDIA Partner to Build Industrial AI Platform Powering Virtual Twi…",
+          "url": "http://nvidianews.nvidia.com/news/dassault-systemes-nvidia-industrial-ai",
+          "type": "Primary",
+          "published_at": "2026-02-03T16:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": true
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-56",
+      "domain": "AI",
+      "included_by_source_override": true,
+      "briefing_reason": "Included by source override",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "Primary source present: confidence capped at Medium unless corroborated",
+        "No contradictions detected in sources"
+      ],
+      "title": "Sora Feed Philosophy Discover Sora Feed",
+      "intel_line": "Sora Feed Philosophy Discover Sora Feed. Primary source posted an update; assess enterprise impact on cost, risk, or adoption.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Strategic",
+      "confidence": "Med",
+      "freshness_hours": 36,
+      "timestamps": {
+        "first_seen_at": "2026-02-03T00:00:00.000Z",
+        "last_updated_at": "2026-02-03T00:00:00.000Z",
+        "first_credible_at": "2026-02-03T00:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_business_market"
+      },
+      "score": {
+        "relevance": 3,
+        "impact": 2,
+        "novelty": 2,
+        "credibility": 3,
+        "time_sensitivity": 2,
+        "total": 12
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: OpenAI News",
+          "source_ids": [
+            "OpenAI News:aHR0cHM6Ly9vcGVuYWkuY29t"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "OpenAI News:aHR0cHM6Ly9vcGVuYWkuY29t"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "OpenAI News:aHR0cHM6Ly9vcGVuYWkuY29t"
+          ]
+        }
+      ],
+      "entities": [
+        "The Sora",
+        "Discover",
+        "Sora"
+      ],
+      "keywords": [
+        "sora",
+        "feed",
+        "philosophy",
+        "discover",
+        "spark",
+        "creativity",
+        "foster",
+        "connections"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "OpenAI News:aHR0cHM6Ly9vcGVuYWkuY29t",
+          "publisher": "OpenAI News",
+          "title": "The Sora feed philosophy",
+          "url": "https://openai.com/index/sora-feed-philosophy",
+          "type": "Primary",
+          "published_at": "2026-02-03T00:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": true
+        }
+      ]
+    }
+  ],
+  "queued_topics": [
+    {
+      "topic_id": "ai-2026-02-04-53",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "In queue",
+      "confidence_rationale": [
+        "No contradictions detected in sources"
+      ],
+      "title": "OpenClaw-style always-on agent workflows trend",
+      "intel_line": "OpenClaw-style always-on agent workflows trend. Multiple coverage surfaced it; assess enterprise impact on cost, risk, or adoption.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Risk",
+      "confidence": "Low",
+      "freshness_hours": 46,
+      "timestamps": {
+        "first_seen_at": "2026-02-02T14:10:10.000Z",
+        "last_updated_at": "2026-02-03T10:14:14.000Z",
+        "first_credible_at": "2026-02-02T14:10:10.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_security"
+      },
+      "score": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 2,
+        "credibility": 2,
+        "time_sensitivity": 4,
+        "total": 17
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: The Register (AI/ML)",
+          "source_ids": [
+            "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: The Register (AI/ML)",
+          "source_ids": [
+            "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp"
+          ]
+        }
+      ],
+      "entities": [
+        "OpenClaw",
+        "DIY AI",
+        "Jarvis",
+        "Just",
+        "AI-powered",
+        "RCE",
+        "Whac-A-Mole",
+        "Researchers"
+      ],
+      "keywords": [
+        "farm",
+        "openclaw",
+        "security",
+        "dumpster",
+        "fire",
+        "personal",
+        "jarvis",
+        "hear"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp",
+          "publisher": "The Register (AI/ML)",
+          "title": "DIY AI bot farm OpenClaw is a security 'dumpster fire'",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/03/openclaw_security_problems/",
+          "type": "Trade",
+          "published_at": "2026-02-03T10:14:14.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        },
+        {
+          "source_id": "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp",
+          "publisher": "The Register (AI/ML)",
+          "title": "OpenClaw patches one-click RCE as security Whac-A-Mole continues",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/02/openclaw_security_issues/",
+          "type": "Trade",
+          "published_at": "2026-02-02T14:10:10.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-32",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Agent Alpha Tree Search Unifying Generation",
+      "intel_line": "Agent Alpha Tree Search Unifying Generation. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Risk",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_security"
+      },
+      "score": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 4,
+        "total": 15
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "Agent Alpha",
+        "Tree Search Unifying Generation",
+        "Exploration",
+        "Evaluation",
+        "Computer-Use Agents",
+        "Announce Type",
+        "Abstract"
+      ],
+      "keywords": [
+        "agent",
+        "alpha",
+        "tree",
+        "search",
+        "unifying",
+        "generation",
+        "exploration",
+        "evaluation"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "Agent Alpha: Tree Search Unifying Generation, Exploration and Evaluation for Computer-Use…",
+          "url": "https://arxiv.org/abs/2602.02995",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-34",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Tame Trustworthy Test Time Evolution Agent",
+      "intel_line": "Tame Trustworthy Test Time Evolution Agent. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Risk",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_security"
+      },
+      "score": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 4,
+        "total": 15
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "TAME",
+        "Trustworthy Test-Time Evolution",
+        "Agent Memory",
+        "Systematic Benchmarking",
+        "Announce Type",
+        "Abstract",
+        "Test-time"
+      ],
+      "keywords": [
+        "tame",
+        "trustworthy",
+        "test",
+        "time",
+        "evolution",
+        "agent",
+        "memory",
+        "systematic"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "TAME: A Trustworthy Test-Time Evolution of Agent Memory with Systematic Benchmarking",
+          "url": "https://arxiv.org/abs/2602.03224",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-49",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "AI accelerator roadmap updates reshape capacity planning",
+      "intel_line": "AI accelerator roadmap updates reshape capacity planning. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Risk",
+      "confidence": "Low",
+      "freshness_hours": 22,
+      "timestamps": {
+        "first_seen_at": "2026-02-03T14:00:02.000Z",
+        "last_updated_at": "2026-02-03T14:00:02.000Z",
+        "first_credible_at": "2026-02-03T14:00:02.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_security"
+      },
+      "score": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 4,
+        "total": 15
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: IEEE Spectrum (AI)",
+          "source_ids": [
+            "IEEE Spectrum (AI):aHR0cHM6Ly9zcGVjdHJ1bS5p"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "IEEE Spectrum (AI):aHR0cHM6Ly9zcGVjdHJ1bS5p"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "IEEE Spectrum (AI):aHR0cHM6Ly9zcGVjdHJ1bS5p"
+          ]
+        }
+      ],
+      "entities": [
+        "AI Hunts",
+        "Next Big Thing",
+        "Physics In",
+        "Carl",
+        "Anderson",
+        "Nobel Prize",
+        "Four",
+        "Who"
+      ],
+      "keywords": [
+        "hunts",
+        "next",
+        "thing",
+        "physics",
+        "1930",
+        "young",
+        "physicist",
+        "named"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "IEEE Spectrum (AI):aHR0cHM6Ly9zcGVjdHJ1bS5p",
+          "publisher": "IEEE Spectrum (AI)",
+          "title": "AI Hunts for the Next Big Thing in Physics",
+          "url": "https://spectrum.ieee.org/particle-physics-ai",
+          "type": "Mainstream",
+          "published_at": "2026-02-03T14:00:02.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-59",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Real-time deepfake tooling spreads via open-source releases",
+      "intel_line": "Real-time deepfake tooling spreads via open-source releases. One single source surfaced this; treat as preliminary and watch for confirmati…",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Risk",
+      "confidence": "Low",
+      "freshness_hours": 45,
+      "timestamps": {
+        "first_seen_at": "2026-02-02T15:00:02.000Z",
+        "last_updated_at": "2026-02-02T15:00:02.000Z",
+        "first_credible_at": "2026-02-02T15:00:02.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_security"
+      },
+      "score": {
+        "relevance": 5,
+        "impact": 4,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 4,
+        "total": 15
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: IEEE Spectrum (AI)",
+          "source_ids": [
+            "IEEE Spectrum (AI):aHR0cHM6Ly9zcGVjdHJ1bS5p"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "IEEE Spectrum (AI):aHR0cHM6Ly9zcGVjdHJ1bS5p"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "IEEE Spectrum (AI):aHR0cHM6Ly9zcGVjdHJ1bS5p"
+          ]
+        }
+      ],
+      "entities": [
+        "EU",
+        "Don",
+        "Regulate AI Models",
+        "Regulate AI Use At",
+        "China",
+        "AI-specific",
+        "In Europe",
+        "European Union AI Act"
+      ],
+      "keywords": [
+        "regulate",
+        "models",
+        "times",
+        "seem",
+        "efforts",
+        "rein",
+        "everything",
+        "everywhere"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "IEEE Spectrum (AI):aHR0cHM6Ly9zcGVjdHJ1bS5p",
+          "publisher": "IEEE Spectrum (AI)",
+          "title": "Don’t Regulate AI Models. Regulate AI Use",
+          "url": "https://spectrum.ieee.org/ai-model-regulation",
+          "type": "Mainstream",
+          "published_at": "2026-02-02T15:00:02.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-01",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "OpenClaw-style always-on agent workflows trend",
+      "intel_line": "OpenClaw-style always-on agent workflows trend. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Risk",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:28:12.000Z",
+        "last_updated_at": "2026-02-04T05:28:12.000Z",
+        "first_credible_at": "2026-02-04T05:28:12.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_security"
+      },
+      "score": {
+        "relevance": 5,
+        "impact": 2,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 4,
+        "total": 13
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: The Register (AI/ML)",
+          "source_ids": [
+            "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp"
+          ]
+        }
+      ],
+      "entities": [
+        "OpenClaw",
+        "Clouds",
+        "OpenClaw-as-a-service",
+        "Gartner"
+      ],
+      "keywords": [
+        "clouds",
+        "rush",
+        "deliver",
+        "openclaw",
+        "service",
+        "offerings",
+        "analyst",
+        "house"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp",
+          "publisher": "The Register (AI/ML)",
+          "title": "Clouds rush to deliver OpenClaw-as-a-service offerings",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/04/cloud_hosted_openclaw/",
+          "type": "Trade",
+          "published_at": "2026-02-04T05:28:12.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-30",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Scaling Aware Adapter Structure Grounded Llm",
+      "intel_line": "Scaling Aware Adapter Structure Grounded Llm. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Risk",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_security"
+      },
+      "score": {
+        "relevance": 5,
+        "impact": 2,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 4,
+        "total": 13
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "Scaling-Aware Adapter",
+        "Structure-Grounded LLM Reasoning",
+        "Announce Type",
+        "Abstract",
+        "Large",
+        "LLMs",
+        "Such"
+      ],
+      "keywords": [
+        "scaling",
+        "aware",
+        "adapter",
+        "structure",
+        "grounded",
+        "reasoning",
+        "arxiv",
+        "2602"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "Scaling-Aware Adapter for Structure-Grounded LLM Reasoning",
+          "url": "https://arxiv.org/abs/2602.02780",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-31",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Have Articulated Myself Clearly Diagnosing Dynamic",
+      "intel_line": "Have Articulated Myself Clearly Diagnosing Dynamic. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Risk",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_security"
+      },
+      "score": {
+        "relevance": 5,
+        "impact": 2,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 4,
+        "total": 13
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "May Not Have Articulated",
+        "Myself Clearly",
+        "Diagnosing Dynamic Instability",
+        "LLM Reasoning",
+        "Inference Time",
+        "Announce Type",
+        "Abstract"
+      ],
+      "keywords": [
+        "have",
+        "articulated",
+        "myself",
+        "clearly",
+        "diagnosing",
+        "dynamic",
+        "instability",
+        "reasoning"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "\"I May Not Have Articulated Myself Clearly\": Diagnosing Dynamic Instability in LLM Reason…",
+          "url": "https://arxiv.org/abs/2602.02863",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-33",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Methods Open Problems Differentiable Social Choice",
+      "intel_line": "Methods Open Problems Differentiable Social Choice. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Risk",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_security"
+      },
+      "score": {
+        "relevance": 5,
+        "impact": 2,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 4,
+        "total": 13
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "Methods",
+        "Open Problems",
+        "Differentiable Social Choice",
+        "Learning Mechanisms",
+        "Decisions",
+        "Alignment",
+        "Announce Type"
+      ],
+      "keywords": [
+        "methods",
+        "open",
+        "problems",
+        "differentiable",
+        "social",
+        "choice",
+        "learning",
+        "mechanisms"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "Methods and Open Problems in Differentiable Social Choice: Learning Mechanisms, Decisions…",
+          "url": "https://arxiv.org/abs/2602.03003",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-25",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "AI vendor pricing changes force renewed cost planning",
+      "intel_line": "AI vendor pricing changes force renewed cost planning. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Regulatory",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_regulation"
+      },
+      "score": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 3,
+        "total": 13
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "Dynamic Mix Precision Routing",
+        "Efficient Multi-step LLM Interaction",
+        "Announce Type",
+        "Abstract",
+        "Large",
+        "LLM",
+        "While"
+      ],
+      "keywords": [
+        "dynamic",
+        "precision",
+        "routing",
+        "efficient",
+        "multi",
+        "step",
+        "interaction",
+        "arxiv"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "Dynamic Mix Precision Routing for Efficient Multi-step LLM Interaction",
+          "url": "https://arxiv.org/abs/2602.02711",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-27",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Policy guidance tightens around enterprise AI use",
+      "intel_line": "Policy guidance tightens around enterprise AI use. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Regulatory",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_regulation"
+      },
+      "score": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 3,
+        "total": 13
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "STAR",
+        "Super-Tiny Function Calling Models",
+        "Announce Type",
+        "Abstract",
+        "Large Language Models",
+        "LLMs",
+        "However"
+      ],
+      "keywords": [
+        "star",
+        "similarity",
+        "guided",
+        "teacher",
+        "assisted",
+        "refinement",
+        "super",
+        "tiny"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "STAR: Similarity-guided Teacher-Assisted Refinement for Super-Tiny Function Calling Models",
+          "url": "https://arxiv.org/abs/2602.03022",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-06",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "In queue",
+      "confidence_rationale": [
+        "No contradictions detected in sources"
+      ],
+      "title": "AI vendor pricing changes force renewed cost planning",
+      "intel_line": "AI vendor pricing changes force renewed cost planning. Multiple coverage surfaced it; assess enterprise impact on cost, risk, or adoption.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Strategic",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_infra"
+      },
+      "score": {
+        "relevance": 3,
+        "impact": 4,
+        "novelty": 2,
+        "credibility": 2,
+        "time_sensitivity": 2,
+        "total": 13
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "Chain",
+        "Simulation",
+        "Dual-Mode Reasoning Framework",
+        "Large Language Models",
+        "Dynamic Problem Routing",
+        "Announce Type",
+        "Abstract"
+      ],
+      "keywords": [
+        "chain",
+        "simulation",
+        "dual",
+        "mode",
+        "reasoning",
+        "framework",
+        "large",
+        "language"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "Chain of Simulation: A Dual-Mode Reasoning Framework for Large Language Models with Dynam…",
+          "url": "https://arxiv.org/abs/2602.02842",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        },
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "Reasoning about Reasoning: BAPO Bounds on Chain-of-Thought Token Complexity in LLMs",
+          "url": "https://arxiv.org/abs/2602.02909",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        },
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "Large Language Models Can Take False First Steps at Inference-time Planning",
+          "url": "https://arxiv.org/abs/2602.02991",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-07",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "In queue",
+      "confidence_rationale": [
+        "No contradictions detected in sources"
+      ],
+      "title": "AI vendor pricing changes force renewed cost planning",
+      "intel_line": "AI vendor pricing changes force renewed cost planning. Multiple coverage surfaced it; assess enterprise impact on cost, risk, or adoption.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Strategic",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_infra"
+      },
+      "score": {
+        "relevance": 3,
+        "impact": 4,
+        "novelty": 2,
+        "credibility": 2,
+        "time_sensitivity": 2,
+        "total": 13
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "STEER",
+        "Inference-Time Risk Control",
+        "Constrained Quality-Diversity Search",
+        "Announce Type",
+        "Abstract",
+        "Large Language Models",
+        "LLMs"
+      ],
+      "keywords": [
+        "steer",
+        "inference",
+        "time",
+        "risk",
+        "control",
+        "constrained",
+        "quality",
+        "diversity"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "STEER: Inference-Time Risk Control via Constrained Quality-Diversity Search",
+          "url": "https://arxiv.org/abs/2602.02862",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        },
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "UAT-LITE: Inference-Time Uncertainty-Aware Attention for Pretrained Transformers",
+          "url": "https://arxiv.org/abs/2602.02952",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        },
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "KANFIS A Neuro-Symbolic Framework for Interpretable and Uncertainty-Aware Learning",
+          "url": "https://arxiv.org/abs/2602.03034",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-24",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Policy guidance tightens around enterprise AI use",
+      "intel_line": "Policy guidance tightens around enterprise AI use. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Regulatory",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_regulation"
+      },
+      "score": {
+        "relevance": 4,
+        "impact": 3,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 3,
+        "total": 12
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "ATLAS",
+        "Task-Distributed Multi-LLM Supporters",
+        "Announce Type",
+        "Abstract",
+        "Recent",
+        "LLM",
+        "Adaptive Task-distributed Learning"
+      ],
+      "keywords": [
+        "atlas",
+        "adaptive",
+        "self",
+        "evolutionary",
+        "research",
+        "agent",
+        "task",
+        "distributed"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "ATLAS : Adaptive Self-Evolutionary Research Agent with Task-Distributed Multi-LLM Support…",
+          "url": "https://arxiv.org/abs/2602.02709",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-26",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Policy guidance tightens around enterprise AI use",
+      "intel_line": "Policy guidance tightens around enterprise AI use. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Regulatory",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_regulation"
+      },
+      "score": {
+        "relevance": 4,
+        "impact": 3,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 3,
+        "total": 12
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "Minimal Computational Preconditions",
+        "Subjective Perspective",
+        "Artificial Agents",
+        "Announce Type",
+        "Abstract"
+      ],
+      "keywords": [
+        "minimal",
+        "computational",
+        "preconditions",
+        "subjective",
+        "perspective",
+        "artificial",
+        "agents",
+        "arxiv"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "Minimal Computational Preconditions for Subjective Perspective in Artificial Agents",
+          "url": "https://arxiv.org/abs/2602.02902",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-28",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Policy guidance tightens around enterprise AI use",
+      "intel_line": "Policy guidance tightens around enterprise AI use. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Regulatory",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_regulation"
+      },
+      "score": {
+        "relevance": 4,
+        "impact": 3,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 3,
+        "total": 12
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "RC-GRPO",
+        "Reward-Conditioned Group Relative Policy",
+        "Optimization",
+        "Multi-Turn Tool Calling Agents",
+        "Announce Type",
+        "Abstract",
+        "Multi-turn"
+      ],
+      "keywords": [
+        "grpo",
+        "reward",
+        "conditioned",
+        "group",
+        "relative",
+        "policy",
+        "optimization",
+        "multi"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "RC-GRPO: Reward-Conditioned Group Relative Policy Optimization for Multi-Turn Tool Callin…",
+          "url": "https://arxiv.org/abs/2602.03025",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-29",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Policy guidance tightens around enterprise AI use",
+      "intel_line": "Policy guidance tightens around enterprise AI use. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Regulatory",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_regulation"
+      },
+      "score": {
+        "relevance": 4,
+        "impact": 3,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 3,
+        "total": 12
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "De-conflating Preference",
+        "Qualification",
+        "Constrained Dual-Perspective Reasoning",
+        "Job Recommendation",
+        "Large Language Models",
+        "Announce Type",
+        "Abstract"
+      ],
+      "keywords": [
+        "conflating",
+        "preference",
+        "qualification",
+        "constrained",
+        "dual",
+        "perspective",
+        "reasoning",
+        "recommendation"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "De-conflating Preference and Qualification: Constrained Dual-Perspective Reasoning for Jo…",
+          "url": "https://arxiv.org/abs/2602.03097",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-35",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Policy guidance tightens around enterprise AI use",
+      "intel_line": "Policy guidance tightens around enterprise AI use. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Regulatory",
+      "confidence": "Low",
+      "freshness_hours": 9,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T02:52:40.000Z",
+        "last_updated_at": "2026-02-04T02:52:40.000Z",
+        "first_credible_at": "2026-02-04T02:52:40.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_regulation"
+      },
+      "score": {
+        "relevance": 4,
+        "impact": 3,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 3,
+        "total": 12
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: The Register (AI/ML)",
+          "source_ids": [
+            "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp"
+          ]
+        }
+      ],
+      "entities": [
+        "Supermicro",
+        "Single",
+        "NASDAQ"
+      ],
+      "keywords": [
+        "once",
+        "supermicro",
+        "dodged",
+        "drama",
+        "just",
+        "delivered",
+        "datacenters",
+        "single"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp",
+          "publisher": "The Register (AI/ML)",
+          "title": "For once, Supermicro has dodged drama and just delivered datacenters",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/04/for_once_supermicro_has_dodged/",
+          "type": "Trade",
+          "published_at": "2026-02-04T02:52:40.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-54",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "Policy guidance tightens around enterprise AI use",
+      "intel_line": "Policy guidance tightens around enterprise AI use. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Regulatory",
+      "confidence": "Low",
+      "freshness_hours": 31,
+      "timestamps": {
+        "first_seen_at": "2026-02-03T04:42:37.000Z",
+        "last_updated_at": "2026-02-03T04:42:37.000Z",
+        "first_credible_at": "2026-02-03T04:42:37.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_regulation"
+      },
+      "score": {
+        "relevance": 4,
+        "impact": 3,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 3,
+        "total": 12
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: The Register (AI/ML)",
+          "source_ids": [
+            "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp"
+          ]
+        }
+      ],
+      "entities": [
+        "South Korea",
+        "Spam Main",
+        "AI-powered"
+      ],
+      "keywords": [
+        "south",
+        "korea",
+        "enlists",
+        "spot",
+        "pump",
+        "dump",
+        "schemes",
+        "social"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "The Register (AI/ML):aHR0cHM6Ly9nby50aGVyZWdp",
+          "publisher": "The Register (AI/ML)",
+          "title": "South Korea enlists AI to spot pump and dump schemes on social media, or in Spam",
+          "url": "https://go.theregister.com/feed/www.theregister.com/2026/02/03/south_korea_ai_stock_fraud/",
+          "type": "Trade",
+          "published_at": "2026-02-03T04:42:37.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    },
+    {
+      "topic_id": "ai-2026-02-04-02",
+      "domain": "AI",
+      "included_by_source_override": false,
+      "briefing_reason": "Single source",
+      "confidence_rationale": [
+        "Single source: confidence is Low unless Primary",
+        "No contradictions detected in sources"
+      ],
+      "title": "AI vendor pricing changes force renewed cost planning",
+      "intel_line": "AI vendor pricing changes force renewed cost planning. One single source surfaced this; treat as preliminary and watch for confirmation.",
+      "context": {
+        "what_changed": "New reporting surfaced this development and its implications.",
+        "whos_impacted": "Enterprise teams planning AI rollout, cost, governance, or security.",
+        "what_to_watch_next": "Primary docs, vendor statements, and measurable follow-up signals."
+      },
+      "reason_label": "Operational",
+      "confidence": "Low",
+      "freshness_hours": 7,
+      "timestamps": {
+        "first_seen_at": "2026-02-04T05:00:00.000Z",
+        "last_updated_at": "2026-02-04T05:00:00.000Z",
+        "first_credible_at": "2026-02-04T05:00:00.000Z"
+      },
+      "tags": {
+        "subdomain": "ai_apps_tools"
+      },
+      "score": {
+        "relevance": 4,
+        "impact": 4,
+        "novelty": 2,
+        "credibility": 0,
+        "time_sensitivity": 2,
+        "total": 12
+      },
+      "timeline": [
+        {
+          "date": "2026-02-04",
+          "event": "First surfaced via: arXiv cs.AI",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        },
+        {
+          "date": "2026-02-04",
+          "event": "Additional coverage: (single source)",
+          "source_ids": [
+            "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv"
+          ]
+        }
+      ],
+      "entities": [
+        "arXiv",
+        "CreditAudit",
+        "Auditing",
+        "LLM Evaluation",
+        "Selection",
+        "Announce Type",
+        "Abstract",
+        "Leaderboard"
+      ],
+      "keywords": [
+        "creditaudit",
+        "auditing",
+        "evaluation",
+        "selection",
+        "arxiv",
+        "2602",
+        "02515v1",
+        "announce"
+      ],
+      "second_order_effects": [
+        "If this continues, expect accelerated enterprise evaluation and toolchain changes.",
+        "If this continues, expect tighter governance and clearer ROI requirements."
+      ],
+      "contradictions": [],
+      "sources": [
+        {
+          "source_id": "arXiv cs.AI:aHR0cHM6Ly9hcnhpdi5vcmcv",
+          "publisher": "arXiv cs.AI",
+          "title": "CreditAudit: 2D Auditing for LLM Evaluation and Selection",
+          "url": "https://arxiv.org/abs/2602.02515",
+          "type": "Research",
+          "published_at": "2026-02-04T05:00:00.000Z",
+          "retrieved_at": "2026-02-04T12:00:38.784Z",
+          "is_primary": false
+        }
+      ]
+    }
+  ]
+}

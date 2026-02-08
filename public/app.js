@@ -223,16 +223,26 @@ function mkSwitch(on) {
   return sw;
 }
 
+const IS_GITHUB_PAGES = location.hostname.endsWith('github.io');
+
+function apiPath(p) {
+  // Use relative paths so GitHub Pages subpaths (/<repo>/) work.
+  return String(p || '').replace(/^\//, '');
+}
+
 async function loadSources() {
   const box = $('#sources');
   box.innerHTML = 'Loading sources…';
-  const res = await fetch('/api/sources', { cache: 'no-store' });
+
+  // On GitHub Pages we have static JSON only (no write-back toggles).
+  const url = IS_GITHUB_PAGES ? apiPath('data/source_registry.json') : apiPath('api/sources');
+  const res = await fetch(url, { cache: 'no-store' });
   if (!res.ok) {
     box.innerHTML = 'Failed to load registry.';
     return;
   }
   const data = await res.json();
-  const sources = data.sources || [];
+  const sources = Array.isArray(data) ? data : (data.sources || []);
 
   const wrap = document.createElement('div');
   wrap.className = 'tableWrap';
@@ -290,7 +300,11 @@ async function loadSources() {
     tdCount.textContent = (s.items_fetched_last_run ?? '—');
 
     async function updateSource(patch) {
-      const resp = await fetch('/api/sources/update', {
+      if (IS_GITHUB_PAGES) {
+        alert('GitHub Pages demo mode: source toggles are disabled (static JSON only).');
+        return false;
+      }
+      const resp = await fetch(apiPath('api/sources/update'), {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name: s.name, patch })
@@ -335,9 +349,12 @@ async function loadLatest() {
   const meta = $('#meta');
   meta.textContent = 'Loading latest run…';
 
-  const res = await fetch('/api/run/latest', { cache: 'no-store' });
+  const url = IS_GITHUB_PAGES ? apiPath('data/run.latest.json') : apiPath('api/run/latest');
+  const res = await fetch(url, { cache: 'no-store' });
   if (!res.ok) {
-    meta.textContent = 'No run.json found. Run: npm run run:ai:sample';
+    meta.textContent = IS_GITHUB_PAGES
+      ? 'No demo run.json found.'
+      : 'No run.json found. Run: npm run run:ai:sample';
     $('#list').innerHTML = '';
     $('#card').innerHTML = 'Select a topic to view the drill-down card.';
     $('#card').classList.add('empty');
