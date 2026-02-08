@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Project 411 — AI Briefing</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <main class="wrap">
+      <header class="top">
+        <div>
+          <div class="kicker">Project 411</div>
+          <h1>AI Briefing</h1>
+          <div id="meta" class="meta">Loading…</div>
+          <div id="note" class="note" hidden></div>
+        </div>
+        <div class="right">
+          <nav class="nav">
+            <button id="navBriefing" class="btn btnTab active">Briefing</button>
+            <button id="navSources" class="btn btnTab">Sources</button>
+          </nav>
+          <button id="reload" class="btn">Reload</button>
+        </div>
+      </header>
+
+      <section id="pageBriefing">
+        <div class="controls">
+          <div class="control">
+            <label for="topicCount" class="label">Show</label>
+            <select id="topicCount" class="select">
+              <option value="5" selected>5</option>
+              <option value="8">8</option>
+              <option value="12">12</option>
+              <option value="15">15</option>
+              <option value="20">20</option>
+            </select>
+            <div class="label">topics</div>
+          </div>
+          <div id="kwState" class="kwState"></div>
+        </div>
+
+        <h2 class="h2">Topics</h2>
+        <div id="list" class="list" aria-live="polite"></div>
+
+        <h2 class="h2">Drill-down</h2>
+        <div id="card" class="card empty">Select a topic to view the drill-down card.</div>
+      </section>
+
+      <section id="pageSources" hidden>
+        <h2 class="h2">Sources</h2>
+        <div id="sources" class="card">Loading sources…</div>
+      </section>
+
+      <footer class="footer">
+        <div>v0 • No auth • Local JSON</div>
+      </footer>
+    </main>
+
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>

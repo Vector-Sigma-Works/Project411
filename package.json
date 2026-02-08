@@ -1,0 +1,15 @@
+{
+  "name": "project-411-ai-mvs",
+  "version": "0.0.2",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "run:ai": "node scripts/run_ai_briefing.js",
+    "run:ai:sample": "node scripts/run_ai_briefing.js --sample",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "fast-xml-parser": "^5.3.4"
+  }
+}
